@@ -32,7 +32,7 @@ main {
 
 section {
     background-color: var(--color5);
-    width: 1000px;
+    width: 700px;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -48,9 +48,9 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: silver ;
 }
 
 footer {
@@ -64,6 +64,7 @@ footer {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    margin: var(--gutter);
 }
 
 .gutter-right {
@@ -71,7 +72,7 @@ h2 {
 }
 
 .main-logo {
-    animation: pulse 5s infinite ease-in-out;
+    animation: pulse 10s infinite ease-in-out;
 }
 
 header img {
@@ -82,8 +83,15 @@ header img {
 
 content {
     width: 80%;
+    background-color: rgb(139, 188, 218);
 }
-
+h3 {
+    font-size: 1.2rem;
+    font-weight: bolds;
+    
+    text-align: center;
+    margin: var(--gutter);
+}
 p {
     margin: var(--gutter);
 }
